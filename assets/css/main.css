@@ -1,0 +1,205 @@
+/* 
+Small devices (portrait phones,less then 576px)
+*/
+
+@media (max-width: 575.98px) {
+  .ml-auto, .mx-auto {
+    align-items: end;
+}
+
+.banner-inner h1 {
+  margin-top: 182px;
+  font-size: 30px;
+  text-align: left;
+}
+.btn-nav{
+  margin-bottom: 59px;
+}
+.btn-nav .btn-success{
+  position: absolute;
+  right: -11px;
+  display: block;
+  bottom: 5px;
+}
+.banner-inner .btn-nav .btn-info {
+  position: absolute;
+  left: 42px;
+  margin: 14px 0px 10px;
+}
+.btn-nav .search-icon {
+  margin-top: 357px;
+}
+.banner-inner{
+  text-align: center;
+  margin-left: 30px;
+  margin-top: -183px;
+  padding-bottom: 25px;
+}
+.banner-inner p{
+  margin-top: 66px;
+  text-align: start;
+}
+.bang-section .global-tittle h2 {
+  font-size: 23px;
+}
+.bang-section .global-tittle {
+  padding: 122px 0;
+}
+.bang-section .global-tittle p {
+  padding: 0px;
+  font-size: 13px;
+}
+.Experience-section .global-tittle h2 {
+  font-size: 30px;
+}
+
+
+
+
+}
+
+
+  /* 
+Small devices (landscape phones, 576px and up)
+  */
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .ml-auto, .mx-auto {
+      align-items: end;
+  }
+  
+  .banner-inner h1 {
+    margin-top: 0px;
+    font-size: 30px;
+    text-align: left;
+  }
+  .btn-nav{
+    margin-bottom: 59px;
+  }
+  .btn-nav .btn-success{
+    position: absolute;
+    right: -11px;
+    display: block;
+    bottom: 5px;
+  }
+  .banner-inner .btn-nav .btn-info {
+    position: absolute;
+    left: 42px;
+    margin: 14px 0px 10px;
+  }
+  .btn-nav .search-icon {
+    margin-top: 357px;
+  }
+  .banner-inner{
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-bottom: 25px;
+  }
+  .banner-inner p{
+    margin-top: 66px;
+    text-align: start;
+  }
+
+  .bang-section .global-tittle {
+    padding: 121px 0;
+  }
+  .bang-section .global-tittle h2 {
+    font-size: 32px;
+}
+  .bang-section .global-tittle p {
+    padding: 0px 45px;
+}
+
+
+
+
+
+
+  }
+
+
+  /* 
+Medium devices (tablets, 768px and up)
+  */
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .ml-auto, .mx-auto {
+      align-items: end;
+  }
+  .btn-nav .btn-success{
+    position: absolute;
+    right: -11px;
+    display: block;
+    bottom: -36px;
+  }
+  .btn-nav .search-icon {
+    margin-top: 357px;
+  }
+
+.banner-inner h1 {
+  margin-top: 24px;
+  text-align: start;
+}
+.text-right {
+  text-align: left !important;
+}
+.bang-section .global-tittle h2 {
+  font-size: 27px;
+}
+.bang-section .global-tittle p {
+  padding: 0px 15px;
+}
+
+
+.content-left {
+  padding: 14px 0px 0px 28px;
+}
+.content-left p {
+  font-size: 13px;
+  line-height: 15px;
+}
+.Experience-section .global-tittle h2{
+  font-size: 32px;
+}
+
+
+  }
+
+
+  /* 
+Large devices (Desktops, 992px and up)
+  */
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .header-section .navbar-light .navbar-nav .nav-item {
+      padding: 0px;
+  }
+  .bang-section .global-tittle p {
+    padding: 0px 73px;
+  }
+  .content-left {
+    padding: 14px 0px 0px 28px;
+  }
+  .content-left p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+
+
+
+
+
+
+
+
+  }
+    
+
+  /* 
+Extra large devices (large desktops, 1200px and up)
+  */
+  
+  @media (min-width: 1200px) {}
